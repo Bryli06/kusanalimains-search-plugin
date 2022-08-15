@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+.myGrid{
+	overflow: hidden;
+}
+.myGrid .grid-items {
+  margin: 0 auto;
+  display: grid;
+  grid-auto-rows: 1fr
+  overflow: hidden;
+}
+.myGrid .item {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  word-break: break-word;
+  margin: 0 auto;
+}
+.myGrid .no-post-found {
+  color: #999;
+  text-align: center;
+  font-size: 18px;
+}
+.myGrid .item .layer-media {
+  line-height: 0;
+}
+.myGrid .item .layer-media img {
+  border-radius: 0;
+  box-shadow: none;
+  width: 100%;
+}
+.myGrid .item .layer-media iframe {
+  width: 100% !important;
+  height: auto;
+}
+
+.grid-items-wrap {
+  overflow: hidden;
+  position: relative;
+}
+
+.primary-search-form {
+    width: 100%;
+    max-width: 650px;
+    background-color: rgba(255,255,255,.15);
+    height: 55px;
+    margin: 0 auto;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-search-label {
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.primary-search-field {
+    height: 100% !important;
+    width: 100% !important;
+    padding-left: 20px !important;
+    background-color: transparent !important;
+    border: 0 !important;
+	border-width: 0 !important;
+    color: #fff !important;
+}
+/*layer-content CSS*/
+
+/*################### flat ########################*/
+.layer-content .flat {
+  overflow: hidden;
+}
+
+
+/*################### flat ########################*/
+.layer-content .flat-center {
+  overflow: hidden;
+}
+
+
+
+/*################### flat-right ########################*/
+.layer-content .flat-right {
+  overflow: hidden;
+}
+
+
+/*################### flat-left ########################*/
+.layer-content .flat-left {
+  overflow: hidden;
+}
+
+
+/*################### wc-center-price ########################*/
+.layer-content .wc-center-price {
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.layer-content .wc-center-price .wc_sale_price  {
+
+}
+
+
+/*################### wc-center-cart ########################*/
+.layer-content .wc-center-cart {
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.layer-content .wc-center-cart .wc_sale_price  {
+
+}
+
+
+
+
+
+
